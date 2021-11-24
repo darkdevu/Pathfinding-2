@@ -682,13 +682,13 @@ const animateMaze = (state_grid, visitedNodesInOrder, maze_type) => {
         a_node.isWall = true;
         document.getElementById(`node-${node.row}-${node.col}`).className =
           "node node_wall_add";
-      }, 10 * i);
+      }, 10 * i)
     } else {
       setTimeout(() => {
         a_node.isWall = false;
         document.getElementById(`node-${node.row}-${node.col}`).className =
           "node node_wall_del";
-      }, 20 * i);
+      }, 20 * i)
     }
   }
 };
