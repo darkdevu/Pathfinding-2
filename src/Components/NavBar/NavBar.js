@@ -41,7 +41,7 @@ export default class Node extends React.Component {
       bg = "dark"
       variant = "dark" >
       <
-      Navbar.Brand href = "#home" > Path VVVisualiser < /Navbar.Brand> <
+      Navbar.Brand href = "#home" > Find the way < /Navbar.Brand> <
       Navbar.Toggle controls = "responsive-navbar-nav" / >
       <
       Navbar.Collapse id = "responsive-navbar-nav" >
@@ -163,36 +163,7 @@ export default class Node extends React.Component {
       Swarm Algorithm <
       /NavDropdown.Item> < /
       NavDropdown > <
-      /Nav>
-
-      <
-      Nav >
-      <
-      NavDropdown title = "Preserve"
-      id = "collasible-nav-dropdown" >
-      <
-      NavDropdown.Item href = "#action/5.4" >
-      <
-      Form >
-      <
-      div key = {
-        `checkbox`
-      }
-      className = "mb-3" >
-      <
-      Form.Check label = "Walls"
-      type = "checkbox"
-      id = "checkbox-2"
-      onClick = {
-        () =>
-        this.handleStatus(constants.PRESERVE_WALLS)
-      }
-      /> < /
-      div > <
-      /Form> < /
-      NavDropdown.Item > <
-      /NavDropdown> < /
-      Nav > <
+      /Nav> <
       /Navbar.Collapse> < /
       Navbar > <
       /div>
