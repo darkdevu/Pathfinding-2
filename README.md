@@ -1,5 +1,7 @@
 This project, as the name suggests is sleeky path finding visualiser, build entirely using reactJs, HTML, CSS, and JavaScript.
 
+Live Demo - https://findtheway-group.netlify.app/
+
 ----------
 ### Algoriithms built in;
 * Dijkstra's
@@ -12,6 +14,5 @@ This project, as the name suggests is sleeky path finding visualiser, build enti
 * Recursive Division
 * Recursive Backtracking
 
-#   P a t h f i n d i n g - 2 
  
  
